@@ -7,6 +7,8 @@
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Action Msg.lvclass" Type="LVClass" URL="../Target Messages/Action Msg/Action Msg.lvclass"/>
+		<Item Name="Get Proxy Enq Msg.lvclass" Type="LVClass" URL="../Get Proxy Enq Msg.lvclass"/>
+		<Item Name="Stop Proxy Msg.lvclass" Type="LVClass" URL="../Target Messages/Stop Proxy Msg/Stop Proxy Msg.lvclass"/>
 	</Item>
 	<Item Name="Target.lvclass" Type="LVClass" URL="../Target/Target.lvclass"/>
 </Library>

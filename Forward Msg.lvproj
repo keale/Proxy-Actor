@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AF Stuff" Type="Folder">
+			<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
+		</Item>
 		<Item Name="Proxy.lvlib" Type="Library" URL="../Proxy/Proxy.lvlib"/>
 		<Item Name="Target.lvlib" Type="Library" URL="../Target/Target.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
