@@ -12,12 +12,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Proxy.lvlib" Type="Library" URL="../Proxy/Proxy.lvlib"/>
-		<Item Name="Network Stream.lvlib" Type="Library" URL="../Network Stream/Network Stream.lvlib"/>
-		<Item Name="Network Stream Writer.lvlib" Type="Library" URL="../Network Stream Writer/Network Stream Writer.lvlib"/>
-		<Item Name="Network Stream Reader.lvlib" Type="Library" URL="../Network Stream Reader/Network Stream Reader.lvlib"/>
-		<Item Name="Alice.lvlib" Type="Library" URL="../Alice/Alice.lvlib"/>
-		<Item Name="Bob.lvlib" Type="Library" URL="../Bob/Bob.lvlib"/>
+		<Item Name="Proxy" Type="Folder">
+			<Item Name="Proxy.lvlib" Type="Library" URL="../Proxy/Proxy.lvlib"/>
+		</Item>
+		<Item Name="Networkstream Proxy" Type="Folder">
+			<Item Name="Network Stream.lvlib" Type="Library" URL="../Network Stream/Network Stream.lvlib"/>
+			<Item Name="Network Stream Writer.lvlib" Type="Library" URL="../Network Stream Writer/Network Stream Writer.lvlib"/>
+			<Item Name="Network Stream Reader.lvlib" Type="Library" URL="../Network Stream Reader/Network Stream Reader.lvlib"/>
+		</Item>
+		<Item Name="TestActors" Type="Folder">
+			<Item Name="Alice.lvlib" Type="Library" URL="../Alice/Alice.lvlib"/>
+			<Item Name="Bob.lvlib" Type="Library" URL="../Bob/Bob.lvlib"/>
+		</Item>
 		<Item Name="launch alice and bob.vi" Type="VI" URL="../launch alice and bob.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
